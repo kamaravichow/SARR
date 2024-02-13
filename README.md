@@ -1,5 +1,5 @@
 # SARR
-![LOGO](/images/image.jpg)
+![LOGO](/images/image.png)
 Smart Automated Review Responder powered by ChatGPT API.
 
 
