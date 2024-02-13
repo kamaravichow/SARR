@@ -1,0 +1,6 @@
+pandas
+httplib2
+openai==1.3.4
+authlib
+oauth2client
+google-api-python-client
