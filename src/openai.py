@@ -24,8 +24,8 @@ def get_ai_response(prompt, max_tokens=160, store="Google Play Store"):
     )
     response = completion.choices[0].message.content
 
-    # Check if response contains any restricted(./files/restricted_words.txt) words
-    restricted_words = open("./src/files/restricted_words.txt", "r").read().split("\n")
+    # Check if response contains any restricted(./instructions/restricted_words.txt) words
+    restricted_words = open("./src/instructions/restricted_words.txt", "r").read().split("\n")
 
     restricted = False
     for word in restricted_words:

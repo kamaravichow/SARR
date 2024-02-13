@@ -30,7 +30,7 @@ reviews_service = service.reviews()
 
 
 def get_play_instructions():
-    instructions = open(f"./src/files/instructions-playstore.txt", "r").read()
+    instructions = open(f"./src/instructions/instructions-playstore.txt", "r").read()
     return instructions
 
 

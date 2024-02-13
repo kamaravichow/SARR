@@ -16,7 +16,7 @@ token = jwt.encode(header, payload, PRIVATE_KEY)  # Create the JWT
 
 
 def get_appstore_instructions():
-    instructions = open(f"./src/files/instructions-appstore.txt", "r").read()
+    instructions = open(f"./src/instructions/instructions-appstore.txt", "r").read()
     return instructions
 
 

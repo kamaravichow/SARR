@@ -32,7 +32,7 @@ def loadReviewsFromPlayStore(package, path):
     # make reviews folder
     rv_folder = make_folder(f"{path}/reviews")
 
-    # load from files if exists
+    # load from instructions files if exists
     if os.path.exists(f"{rv_folder}/reviews.json"):
         cache = json.load(open(f"{rv_folder}/reviews.json", "r"))
         response_time = datetime.strptime(cache["timestamp"], "%d/%m/%Y %H:%M:%S")
