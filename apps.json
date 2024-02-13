@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Play App Name",
+    "summary": "Play App Summary",
+    "id": "package-name (com.aravi.me)",
+    "supportEmail": "support@aravi.me",
+    "store": "play"
+  },
+  {
+    "name": "App Store Name",
+    "summary": "App Store Summary",
+    "id": "appId from appstoreconnect",
+    "supportEmail": "support@aravi.me",
+    "store": "apple"
+  }
+]
