@@ -9,6 +9,8 @@
 
 Smart Automated Review Responder(SARR) is an open-source python tool that get's user reviews from your apps (Google Play & Apple Appstore) and uses OpenAI GPT API to write a customized response to them. 
 
+</div>
+
 ## Guide
 To be written 
 
